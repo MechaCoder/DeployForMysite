@@ -1,0 +1,20 @@
+# This is a sample build configuration for Python.
+# Check our guides at https://confluence.atlassian.com/x/x4UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: python:3.6
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - pip
+        script: # Modify the commands below to build your repository.
+          - pip install -r requirement.txt
+          - python test.py
+          - git init
+          - git remote add origin https://github.com/MechaCoder/DeployForMysite.git
+          - git add ./app/ ./static/, ./templates/, ./test.py, ./web.py
+          - git commit -m "deployment" 
+          - git push -u orgin master --force

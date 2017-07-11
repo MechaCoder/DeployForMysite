@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ pageTitle }}</title>
+        <!--css-->
+        {% for e in cssList %}
+            <link rel="stylesheet" type="text/css" href="{{e}}">
+        {% endfor %}
+    </head>
+    <body>
+        <header>
+            <div class="pageTitle"><h1>{{ pageTitle }}</h1></div>
+            <nav>
+                <ol>
+                    {% for e in pageList %}
+                        <li><a href="?{{e.text}}" data-page="{{e.text}}"> <i class="fa {{e.icon}}"></i>  <span>{{e.text}}</span></a></li>
+                    {% endfor %}
+                </ol>
+            </nav>
+        </header>
+        <div id="app_root"></div>
+        <footer>
+            <!-- js script -->
+            {% for e in jsList %}
+                <script src="{{e}}"></script>
+            {% endfor %}
+        </footer>
+
+    </body>
+</html>

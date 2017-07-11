@@ -1,0 +1,44 @@
+.post-list {
+    width: 25%;
+    position: absolute;
+    float: left;
+    background-color: rgb(175,8,175);
+    margin-left: -10px;
+}
+.post-display{
+    border: 1px dotted rgb(217,22,22);
+    position: absolute;
+    float: right;
+    width: 90%;
+}
+
+
+.post{
+    float: left;
+    background: khaki;
+    padding: 5px;
+    margin: 5px;
+    & .post-title{
+        border-bottom: 1px solid pink;
+        text-align: center;
+        text-decoration: italic;
+    }
+   & .post-content{
+       display: none;
+   }
+   & .tool-bar{
+       button{
+           width: 100%;
+           background-color: rebeccapurple;
+           color: pink;
+           border: none;
+       }
+   }
+}
+.display{
+    float: right;
+    width: 74%;
+    height: 400px;
+    margin-top: 10px;
+    background-color: pink;
+}

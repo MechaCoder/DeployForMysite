@@ -1,0 +1,12 @@
+venu/
+.idea/
+node_modules/
+static/a/dist/
+~/
+static/a/dist
+.vscode/
+
+.pyc
+_play.py
+syntax: glob
+bitbucket-pipelines.yml.orig

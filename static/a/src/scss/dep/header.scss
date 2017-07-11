@@ -1,0 +1,32 @@
+header{
+    background-color: purple;
+    height: 100px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: relative;
+    h1 {
+      color: pink;
+      float: left;
+      padding-left: 5%;
+      width: 50%
+    }
+    nav{
+      ol{
+        list-style: none;
+        float: right;
+        padding-right: 20px;
+        li {
+          background-color: yellow;
+          float: left;
+          display: grid;
+          margin: 5px;
+          padding: 5px;
+          a {
+            text-decoration: none;
+            color: purple;
+          }
+        }
+      }
+    }
+}

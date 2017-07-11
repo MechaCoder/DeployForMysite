@@ -1,0 +1,9 @@
+{
+  "site_title": "MattyP",
+  "page_main": {"content": "# Hidey Hi \n My name is Matthew I am a Tea-Drinking, Norman loving, Spear-fighting Developer, please make your self at home, put your feet up as i can be verbase about my passions.", "icon": "fa-home"},
+  "page_pofile": {
+    "content": "My name is Matthew I am currently a Web Developer living in Carlisle; I have experience in web development using CFML(ColdFusion Markup Language) openBD (a Java-based implementation of CFML). I am an avid user of Python 3.5 and 3.6 I can also program using JavaScript I am a graduate of the University of Cumbria in Applied Computing, and I completed the IT pathway at Lakes College West Cumbria. I am known to be a hard worker (some people would call me a workaholic). \n \n I regularly work with a code club to help children discover the basics of Linux (making great use of Ubuntu and Debian), JavaScript (using Jquery and a wide variety of js plugins).",
+    "icon": "fa-address-book-o"
+  },
+  "blog": []
+}
